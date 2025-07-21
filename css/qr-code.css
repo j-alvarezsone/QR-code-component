@@ -1,0 +1,35 @@
+.qr-code-card {
+  max-width: 20rem;
+  background-color: var(--color-white);
+  padding: var(--spacing-200) var(--spacing-200) var(--spacing-500) var(--spacing-200);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-300);
+  border-radius: 1.25rem;
+}
+
+.qr-code__image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0.625rem;
+}
+
+.qr-code__text-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-200);
+  padding-inline: var(--spacing-200);
+}
+
+.qr-code__title {
+  color: var(--color-slate--900);
+  text-align: center;
+  align-self: stretch;
+}
+
+.qr-code__description {
+  color: var(--color-slate-500);
+  align-self: stretch;
+  text-align: center;
+}
